@@ -6,6 +6,9 @@ export default {
       colors: {
         mid: {
           950: "#172554"
+        },
+        aqua: {
+          400: "#38bdf8"
         }
       },
     },
