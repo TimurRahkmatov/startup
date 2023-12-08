@@ -11,3 +11,21 @@ img {
 .background {
     background: url('./assets/business-concept-with-graphic-holography.jpg') center no-repeat;
 }
+
+.card_startup {
+    width: 85%;
+    margin: auto;
+    height: 450px;
+    background-color: #1e293b;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #38bff829;
+}
+
+
+.startup_btn {
+    padding:0.5rem 1.5rem;
+    border-radius: 7px; 
+    background: #38bdf8;
+    box-shadow:  0px 0px 5px #38bdf8 , 0px 0px 10px #1e40af;
+    margin-top: 1rem;
+}
