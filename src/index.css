@@ -41,7 +41,10 @@ img {
 }
 
 
-
+.links:hover {
+    color: #38bdf8;
+    transition: 0.4s;
+}
 
 .startup_btn {
     padding:0.5rem 1.5rem;

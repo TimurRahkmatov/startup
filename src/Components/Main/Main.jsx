@@ -21,7 +21,7 @@ const Main = () => {
                 typewriter
                 
 
-                  .typeString("SteppeUp: Elevating Central Asian innovation by seamlessly connecting investors with emerging startups, providing insights into market potential, and fostering transformative investment opportunities.")
+                  .typeString("Get information for the regional growth, use smart matching tools for the startups and investors, find mentors !")
                 //   .pauseFor(1000)
                   
                   .start();

@@ -6,18 +6,19 @@ const Header = () => {
     <header>
       <nav className="container px-12 py-6 text-white bg-slate-900 flex justify-between items-center">
         <div className="flex gap-12 items-center">
-          <h2>Logo</h2>
+          <Link to='/'>
+          <h2>Logo</h2></Link>
           <ul className="flex items-center gap-3 ml-12">
-            <li>
+            <li className="links">
               <Link to='/startups'>Browse Startups</Link>
             </li>
             <li>/</li>
-            <li>
+            <li className="links">
               <Link to="/investors">Seek funding</Link>
             </li>
             <li>/</li>
 
-            <li>
+            <li className="links">
               <Link>About Us</Link>
             </li>
           </ul>
