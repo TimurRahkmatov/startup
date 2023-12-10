@@ -6,20 +6,41 @@ img {
     max-width: 100%;
     max-height: 100%;
 }
-
-
-.background {
-    background: url('./assets/business-concept-with-graphic-holography.jpg') center no-repeat;
-}
-
-.card_startup {
-    width: 85%;
-    margin: auto;
-    height: 450px;
+.card-startup {
+    width: 350px;
+    height: 460px;
     background-color: #1e293b;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px #38bff829;
+    color: #fff;
+    box-shadow: 0px 0px 7px #38bff829;
 }
+
+
+.event-two {
+    width: 60%;
+}
+
+.event-one {
+
+    width: 40%;
+}
+
+
+
+.card-startup:hover {
+    transition: 0.7s;
+    box-shadow: 0px 0px 20px #38bff841;
+}
+
+
+.events_card {
+    width: 440px;
+    height: 300px;
+    background-color: #334155;
+    border-radius: 35px;
+}
+
+
 
 
 .startup_btn {

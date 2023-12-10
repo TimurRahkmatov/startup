@@ -21,10 +21,9 @@ const Main = () => {
                 typewriter
                 
 
-                  .typeString("Этот сайт используется для инвестирования и запуска стартап-проектов.")
+                  .typeString("SteppeUp: Elevating Central Asian innovation by seamlessly connecting investors with emerging startups, providing insights into market potential, and fostering transformative investment opportunities.")
                 //   .pauseFor(1000)
-                  .deleteAll()
-                  .typeString("Инновационная платформа для умных инвестиций")
+                  
                   .start();
               }}
             />
