@@ -21,7 +21,7 @@ const Main = () => {
                 typewriter
                 
 
-                  .typeString("Get information for the regional growth, use smart matching tools for the startups and investors, find mentors !")
+                  .typeString("Get information for the regional growth, use smart matching tools for the startups")
                 //   .pauseFor(1000)
                   
                   .start();

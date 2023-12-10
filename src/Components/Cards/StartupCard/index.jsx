@@ -9,7 +9,7 @@ const StartupCard = () => {
       style={{ width: "80%", padding: "2rem 0", backgroundColor: "#1e293b" }}
     >
       <div className="container px-7 ">
-        <div className="flex justify-between py-3">
+        <div className="flex justify-between py-3 pr-48">
           <h3 className="text-sky-400 text-2xl">Startups</h3>
           <p className="text-white">Showing : 3</p>
         </div>

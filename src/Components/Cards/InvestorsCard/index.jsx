@@ -14,7 +14,7 @@ const InvestorsCard = () => {
       }}
     >
       <div className="container px-7 ">
-        <div className="flex justify-between py-3">
+        <div className="flex justify-between py-3 pr-52">
           <h3 className="text-sky-400 text-2xl">Investors</h3>
           <p className="text-white">Showing : 3</p>
         </div>
