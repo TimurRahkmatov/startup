@@ -10,8 +10,6 @@ const Main = () => {
           <img
             className="main__platform-block-image"
             src={CompotuerImage}
-            alt="about-us"
-            srcSet="/site/img/main/platform@2x.png 2x, /site/img/main/platform@3x.png 3x"
           />
         </div>
         <div style={{width: "60%"}} className="texts">
