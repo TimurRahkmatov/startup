@@ -85,6 +85,20 @@ img {
 
 }
 
+.btn_main {
+    padding: 0.7rem 1.4rem;
+    border-radius: 8px;
+}
+
+.parag_text {
+    font-size: 20px;
+}
+
+.main_text {
+    width: 80%;
+    font-size: 40px;
+}
+
 .img_wid {
     width: 170px;
     height: 170px;
@@ -98,6 +112,16 @@ img {
 
     .texts {
         display: flex;
+    }
+
+    .main_text {
+        text-align: center;
+        width: 100%;
+        font-size: 2.5rem;
+    }
+
+    .parag_text {
+        text-align: center;
     }
 }
 
@@ -114,6 +138,11 @@ img {
     
     .section_star {
         width: 60%;
+    }
+
+
+    .main_text {
+        font-size: 2.2rem;
     }
 
 }
@@ -140,6 +169,13 @@ img {
      .section_star {
         width: 100%;
     }
+
+
+    .parag_text {
+        font-size: 18px;
+    }
+
+
 }
 
 
@@ -157,6 +193,17 @@ img {
     .card-startup {
         width: 260px;
         min-height: 350px;
+    }
+
+    .main_text {
+        font-size: 1.6rem;
+    }
+
+    .btn_main {
+        padding: 0.4rem 1rem;
+        font-size: 14px;
+        margin: auto;
+        border-radius: 8px;
     }
 
 }

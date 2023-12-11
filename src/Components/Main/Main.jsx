@@ -13,28 +13,27 @@ const Main = () => {
           />
         </div>
         <div style={{width: "60%"}} className="texts">
-          <h1 style={{ width: "90%" }} className="md:text-center  lg:text-left  xl:text-5xl lg:text-4xl md:text-2xl sm:text-2xl sm:text-center">
+          <h1  className="main_text">
             <Typewriter
               onInit={(typewriter) => {
                 typewriter
                 
 
-                  .typeString("Get information for the regional growth, use smart matching tools for the startups")
+                  .typeString("SteppeUp: Elevating Central Asian innovation by seamlessly connecting investors with emerging startups")
                 //   .pauseFor(1000)
                   
                   .start();
               }}
             />
           </h1>
-          <p style={{ width: "90%" }} className="lg:text-left xl:text-2xl mt-6 lg:text-lg sm:text-xs">
-            Зарегистрируйтесь и получите $10000 на демо-счет для обучения
-            торговле
+          <p style={{ width: "90%" }} className="parag_text">
+            Зарегистрируйтесь и получите $10000 
           </p>
           <div className="flex gap-3 mt-4">
-            <button className="py-2 px-8 rounded text-white bg-sky-400">
+            <button className="btn_main text-white bg-sky-400">
               SIGN UP
             </button>
-            <button className="py-2 px-9 rounded text-sky-400 border-sky-400 border">
+            <button className="btn_main text-sky-400 border-sky-400 border">
               Get Started
             </button>
           </div>
