@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="container m-auto px-12">
         <h2 className="">Logo</h2>
 
-        <div className="flex justify-between items-center mt-0.2">
+        <div className="flex justify-between items-center mt-0.2 flex-wrap gap-5">
           <div className="">
             <p className="w-64 text-sm">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo,
@@ -18,7 +18,7 @@ const Footer = () => {
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non,
               enim!
             </p>
-            <div className="flex mt-4 gap-2">
+            <div className="flex mt-4 gap-2 flex-wrap sm:gap-6">
               <input
                 type="text"
                 placeholder="Your email"

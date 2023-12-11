@@ -5,13 +5,13 @@ import MeetupImg from "../../../assets/meetup.jpg"
 import MonthlyImg from "../../../assets/monthly.png"
 const EventsCard = () => {
   return (
-    <div style={{gap: "5rem"}} className="py-7 flex justify-center flex-wrap">
+    <div style={{gap: "5rem"}} className="py-7 flex justify-center items-center flex-wrap">
       <div className="events_card flex">
         <div style={{ position: "relative" }} className="event-one">
           <div
+          className="img_wid"
             style={{
-              width: "170px",
-              height: "170px",
+             
               backgroundColor: "red",
               borderRadius: "15px",
               position: "absolute",
@@ -28,8 +28,8 @@ const EventsCard = () => {
         </div>
         <div className="text-white event-two items-start flex flex-col justify-between py-7">
           <div>
-            <p>2023-12-05</p>
-            <h3 style={{ width: "95%" }} className="text-xl">
+            <p className="xl:text-xl sm:text-sm md:text-xl lg:text-xl">2023-12-05</p>
+            <h3 style={{ width: "95%" }} className="xl:text-xl sm:text-sm md:text-xl lg:text-xl">
               It’s finally time for the Pizza Pitch!
             </h3>
           </div>
@@ -39,9 +39,9 @@ const EventsCard = () => {
       <div className="events_card flex">
         <div style={{ position: "relative" }} className="event-one">
           <div
+          className="img_wid"
             style={{
-              width: "170px",
-              height: "170px",
+              
               borderRadius: "15px",
               position: "absolute",
               right: "50px",
@@ -57,8 +57,8 @@ const EventsCard = () => {
         </div>
         <div className="text-white event-two items-start flex flex-col justify-between py-7">
           <div>
-            <p>2023-12-05</p>
-            <h3 style={{ width: "95%" }} className="text-xl">
+            <p className="xl:text-xl sm:text-sm md:text-xl lg:text-xl">2023-12-05</p>
+            <h3 style={{ width: "95%" }} className="xl:text-xl sm:text-sm md:text-xl lg:text-xl">
               It’s finally time for the Pizza Pitch!
             </h3>
           </div>
@@ -68,9 +68,9 @@ const EventsCard = () => {
       <div className="events_card flex">
         <div style={{ position: "relative" }} className="event-one">
           <div
+          className="img_wid"
             style={{
-              width: "170px",
-              height: "170px",
+              
               borderRadius: "15px",
               position: "absolute",
               right: "50px",
@@ -86,8 +86,8 @@ const EventsCard = () => {
         </div>
         <div className="text-white event-two items-start flex flex-col justify-between py-7">
           <div>
-            <p>2023-12-05</p>
-            <h3 style={{ width: "95%" }} className="text-xl">
+            <p className="xl:text-xl sm:text-sm md:text-xl lg:text-xl">2023-12-05</p>
+            <h3 style={{ width: "95%" }} className="xl:text-xl sm:text-sm md:text-xl lg:text-xl">
               It’s finally time for the Pizza Pitch!
             </h3>
           </div>
@@ -97,9 +97,9 @@ const EventsCard = () => {
       <div className="events_card flex">
         <div style={{ position: "relative" }} className="event-one">
           <div
+          className="img_wid"
             style={{
-              width: "170px",
-              height: "170px",
+              
               backgroundColor: "red",
               borderRadius: "15px",
               position: "absolute",
@@ -116,8 +116,8 @@ const EventsCard = () => {
         </div>
         <div className="text-white event-two items-start flex flex-col justify-between py-7">
           <div>
-            <p>2023-12-05</p>
-            <h3 style={{ width: "95%" }} className="text-xl">
+            <p className="xl:text-xl sm:text-sm md:text-xl lg:text-xl">2023-12-05</p>
+            <h3 style={{ width: "95%" }} className="xl:text-xl sm:text-sm md:text-xl lg:text-xl">
               It’s finally time for the Pizza Pitch!
             </h3>
           </div>

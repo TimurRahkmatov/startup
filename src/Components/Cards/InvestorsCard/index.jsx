@@ -6,15 +6,15 @@ import SpendImage from "../../../assets/spend.jpg";
 const InvestorsCard = () => {
   return (
     <section
+      className="section_star"
       style={{
-        width: "80%",
         padding: "2rem 0",
         backgroundColor: "#1e293b",
         paddingBottom: "3rem",
       }}
     >
-      <div className="container px-7 ">
-        <div className="flex justify-between py-3 pr-52">
+      <div className="container m-auto px-12">
+        <div className="flex justify-between py-3">
           <h3 className="text-sky-400 text-2xl">Investors</h3>
           <p className="text-white">Showing : 3</p>
         </div>

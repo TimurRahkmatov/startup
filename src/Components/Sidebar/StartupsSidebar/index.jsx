@@ -3,18 +3,18 @@ import React from "react";
 const StartupsSidebar = () => {
   return (
     <div
+    className="sidebar "
       style={{
-        padding: "2rem 0",
-        width: "20%",
-        minHeight:"500px",
+        padding: "2rem 1rem",
+        
         backgroundColor: "#1e293b",
-        display: "flex",
-        flexDirection: "column",
-        alignItems: "center",
+        // display: "flex",
+        // flexDirection: "column",
+        // alignItems: "center",
         color: "#fff"
       }}
     >
-      <div>
+      <div className="">
         <h3 className="text-xl ">Countries</h3>
         <div className="flex gap-3 items-center ml-4 mt-1">
           <input style={{ width: "20px", height: "20px" }} type="checkbox" />
@@ -32,7 +32,7 @@ const StartupsSidebar = () => {
           <button className="m-auto">Show more</button>
         </div>
       </div>
-      <div>
+      <div className="">
         <h3 className="text-xl mt-4">Stages</h3>
         <div className="flex gap-3 items-center ml-4 mt-1">
           <input style={{ width: "20px", height: "20px" }} type="checkbox" />

@@ -6,11 +6,11 @@ const Investors = () => {
   return (
     <div>
       <section className="bg-slate-900 py-12">
-        <div className="container flex justify-center">
+        <div className="container m-auto flex justify-center">
           <div
             className="flex items-center px-3 gap-4"
             style={{
-              width: "800px",
+              width: "80%",
               backgroundColor: "#fff",
               height: "53px",
               borderRadius: "10px",
@@ -28,7 +28,7 @@ const Investors = () => {
           </div>
         </div>
       </section>
-      <div className="flex">
+      <div className="flex flex_sec">
         <InvestorsSidebar />
         <InvestorsCard />
       </div>

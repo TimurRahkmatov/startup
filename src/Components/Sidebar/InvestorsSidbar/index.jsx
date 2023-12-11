@@ -3,14 +3,15 @@ import React from "react";
 const InvestorsSidebar = () => {
   return (
     <div
+    className="sidebar"
       style={{
-        padding: "2rem 0",
-        width: "20%",
-        minHeight: "500px",
+        padding: "2rem 4rem",
+        // width: "20%",
+        // minHeight: "500px",
         backgroundColor: "#1e293b",
-        display: "flex",
-        flexDirection: "column",
-        alignItems: "center",
+        // display: "flex",
+        // flexDirection: "column",
+        // alignItems: "center",
         color: "#fff",
       }}
     >

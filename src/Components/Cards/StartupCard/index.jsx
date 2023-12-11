@@ -6,14 +6,15 @@ import SpendImage from "../../../assets/spend.jpg";
 const StartupCard = () => {
   return (
     <section
-      style={{ width: "80%", padding: "2rem 0", backgroundColor: "#1e293b" }}
+    className="section_star"
+      style={{ padding: "2rem 0", backgroundColor: "#1e293b" }}
     >
-      <div className="container px-7 ">
-        <div className="flex justify-between py-3 pr-48">
+      <div className="container m-auto px-12 ">
+        <div className="flex justify-between py-3 ">
           <h3 className="text-sky-400 text-2xl">Startups</h3>
           <p className="text-white">Showing : 3</p>
         </div>
-        <div className="flex gap-8 mt-2">
+        <div className="flex gap-8 mt-2 flex-wrap">
           <div
             style={{
               width: "320px",

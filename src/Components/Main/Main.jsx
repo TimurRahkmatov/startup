@@ -5,8 +5,8 @@ import Typewriter from "typewriter-effect";
 const Main = () => {
   return (
     <section className="py-2 bg-slate-900 text-white">
-      <div className="container m-auto px-11 flex items-center">
-        <div style={{ width: "75%" }}>
+      <div className="container m-auto px-11 main_flex">
+        <div style={{ width: "75%"  }}>
           <img
             className="main__platform-block-image"
             src={CompotuerImage}
@@ -14,8 +14,8 @@ const Main = () => {
             srcSet="/site/img/main/platform@2x.png 2x, /site/img/main/platform@3x.png 3x"
           />
         </div>
-        <div style={{width: "60%"}}>
-          <h1 style={{ width: "70%" }} className="xl:text-5xl lg:text-3xl">
+        <div style={{width: "60%"}} className="texts">
+          <h1 style={{ width: "90%" }} className="md:text-center  lg:text-left  xl:text-5xl lg:text-4xl md:text-2xl sm:text-2xl sm:text-center">
             <Typewriter
               onInit={(typewriter) => {
                 typewriter
@@ -28,7 +28,7 @@ const Main = () => {
               }}
             />
           </h1>
-          <p style={{ width: "70%" }} className="xl:text-2xl mt-6 lg:text-lg">
+          <p style={{ width: "90%" }} className="lg:text-left xl:text-2xl mt-6 lg:text-lg sm:text-xs">
             Зарегистрируйтесь и получите $10000 на демо-счет для обучения
             торговле
           </p>
