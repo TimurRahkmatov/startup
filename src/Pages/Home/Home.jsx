@@ -8,7 +8,6 @@ const Home = () => {
   return (
     <div className="bg-slate-900">
       <Main />
-      <PaymentSection />
       <StartupSection />
       <EventsSection />
     </div>

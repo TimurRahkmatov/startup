@@ -5,7 +5,7 @@ import Typewriter from "typewriter-effect";
 const Main = () => {
   return (
     <section className="py-2 bg-slate-900 text-white">
-      <div className="container px-11 flex items-center">
+      <div className="container m-auto px-11 flex items-center">
         <div style={{ width: "75%" }}>
           <img
             className="main__platform-block-image"
@@ -15,7 +15,7 @@ const Main = () => {
           />
         </div>
         <div style={{width: "60%"}}>
-          <h1 style={{ width: "70%" }} className="text-5xl ">
+          <h1 style={{ width: "70%" }} className="xl:text-5xl lg:text-3xl">
             <Typewriter
               onInit={(typewriter) => {
                 typewriter
@@ -28,7 +28,7 @@ const Main = () => {
               }}
             />
           </h1>
-          <p style={{ width: "70%" }} className="text-2xl mt-6 ">
+          <p style={{ width: "70%" }} className="xl:text-2xl mt-6 lg:text-lg">
             Зарегистрируйтесь и получите $10000 на демо-счет для обучения
             торговле
           </p>

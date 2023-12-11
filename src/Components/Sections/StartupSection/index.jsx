@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const StartupSection = () => {
   return (
     <section className="py-2 bg-slate-900 pb-9 mt-4">
-      <div className="container px-11 flex justify-evenly gap-3">
+      <div className="container m-auto px-11 flex justify-evenly gap-3 flex-wrap">
         <Link to="/startups">
           <div className="card-startup flex justify-center items-center flex-col">
             <img
