@@ -9,15 +9,11 @@ const Footer = () => {
         <div className="flex justify-between items-center mt-0.2 flex-wrap gap-5">
           <div className="">
             <p className="w-64 text-sm">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo,
-              aut.
+              About us Latest Startups Events Latest News
             </p>
           </div>
           <div>
-            <p className="w-72 text-sm">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non,
-              enim!
-            </p>
+            
             <div className="flex mt-4 gap-2 flex-wrap sm:gap-6">
               <input
                 type="text"
@@ -42,15 +38,17 @@ const Footer = () => {
             <h5 className="mt-2">+998 90 134 23 86</h5>
           </div>
         </div>
-        <div className="w-100 bg-white h-px mt-10">
-        </div>
+        <div className="w-100 bg-white h-px mt-10"></div>
         <div className="mt-4 flex gap-12">
           <div className="">
-            <p className="text-sm">@SteppeUp is active in: Uzbekistan, Kazakhstan, Kyrgyzystan, Turkemenistan and Tadjikistan </p>
+            <p className="text-sm">
+              @SteppeUp is active in: Uzbekistan, Kazakhstan, Kyrgyzystan,
+              Turkemenistan and Tadjikistan{" "}
+            </p>
           </div>
           <div className="flex gap-4">
-              <p className="text-sm">PRIVACY POLICY</p>
-              <p className="text-sm">TERMS AND CONDITIOSN</p>
+            <p className="text-sm">PRIVACY POLICY</p>
+            <p className="text-sm">TERMS AND CONDITIOSN</p>
           </div>
         </div>
       </div>
