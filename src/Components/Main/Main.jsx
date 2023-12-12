@@ -19,16 +19,14 @@ const Main = () => {
                 typewriter
                 
 
-                  .typeString("SteppeUp: Elevating Central Asian innovation by seamlessly connecting investors with emerging startups")
+                  .typeString("A connecting bridge between investors and startups")
                 //   .pauseFor(1000)
                   
                   .start();
               }}
             />
           </h1>
-          <p style={{ width: "90%" }} className="parag_text">
-            Зарегистрируйтесь и получите $10000 
-          </p>
+          
           <div className="flex gap-3 mt-4">
             <button className="btn_main text-white bg-sky-400">
               SIGN UP

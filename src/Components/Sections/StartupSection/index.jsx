@@ -17,10 +17,7 @@ const StartupSection = () => {
             <p
               style={{ width: "80%", textAlign: "center", marginTop: "0.4rem" }}
             >
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Consequatur quaerat porro voluptatibus possimus debitis fuga
-              deserunt id quas obcaecati ipsa.
-            </p>
+register startups and get access to the leading venture funds            </p>
           </div>
         </Link>
         <Link to='/investors'>
@@ -34,9 +31,7 @@ const StartupSection = () => {
             <p
               style={{ width: "80%", textAlign: "center", marginTop: "0.4rem" }}
             >
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Consequatur quaerat porro voluptatibus possimus debitis fuga
-              deserunt id quas obcaecati ipsa.
+             Get access to the most promising startups from the region Investorsga
             </p>
           </div>
         </Link>
