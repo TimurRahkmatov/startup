@@ -28,9 +28,9 @@ const EventsCard = () => {
         </div>
         <div className="text-white event-two items-start flex flex-col justify-between py-7">
           <div>
-            <p className="xl:text-xl sm:text-sm md:text-xl lg:text-xl">2023-12-05</p>
+            <p className="xl:text-xl sm:text-sm md:text-xl lg:text-xl">15-12-2023</p>
             <h3 style={{ width: "95%" }} className="xl:text-xl sm:text-sm md:text-xl lg:text-xl">
-              It’s finally time for the Pizza Pitch!
+            ITosh: Relocation IT meetup #7 в IMPACT.T
             </h3>
           </div>
           <button>Learn More</button>
@@ -57,9 +57,9 @@ const EventsCard = () => {
         </div>
         <div className="text-white event-two items-start flex flex-col justify-between py-7">
           <div>
-            <p className="xl:text-xl sm:text-sm md:text-xl lg:text-xl">2023-12-05</p>
+            <p className="xl:text-xl sm:text-sm md:text-xl lg:text-xl">14-12-2023</p>
             <h3 style={{ width: "95%" }} className="xl:text-xl sm:text-sm md:text-xl lg:text-xl">
-              It’s finally time for the Pizza Pitch!
+            Demo Day акселерационной программы U-Start в UEnte
             </h3>
           </div>
           <button>Learn More</button>
@@ -86,9 +86,9 @@ const EventsCard = () => {
         </div>
         <div className="text-white event-two items-start flex flex-col justify-between py-7">
           <div>
-            <p className="xl:text-xl sm:text-sm md:text-xl lg:text-xl">2023-12-05</p>
+            <p className="xl:text-xl sm:text-sm md:text-xl lg:text-xl">16-12-2023</p>
             <h3 style={{ width: "95%" }} className="xl:text-xl sm:text-sm md:text-xl lg:text-xl">
-              It’s finally time for the Pizza Pitch!
+            TechDay в Inha University 
             </h3>
           </div>
           <button>Learn More</button>
@@ -116,9 +116,9 @@ const EventsCard = () => {
         </div>
         <div className="text-white event-two items-start flex flex-col justify-between py-7">
           <div>
-            <p className="xl:text-xl sm:text-sm md:text-xl lg:text-xl">2023-12-05</p>
+            <p className="xl:text-xl sm:text-sm md:text-xl lg:text-xl">18-19-12-2023</p>
             <h3 style={{ width: "95%" }} className="xl:text-xl sm:text-sm md:text-xl lg:text-xl">
-              It’s finally time for the Pizza Pitch!
+            Business Angel Investors School by MOST Hub Tashkent в C-Space Yunusabad
             </h3>
           </div>
           <button>Learn More</button>
