@@ -13,10 +13,7 @@ const Footer = () => {
             </p>
           </div>
           <div>
-            <p className="w-72 text-sm">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non,
-              enim!
-            </p>
+            
             <div className="flex mt-4 gap-2 flex-wrap sm:gap-6">
               <input
                 type="text"
