@@ -1,7 +1,7 @@
 import React from "react";
-import DemaloImg from "../../../assets/demalo.jpg";
-import InImg from "../../../assets/in.jpg";
-import SpendImage from "../../../assets/spend.jpg";
+import DemaloImg from "../../../assets/tuz.jpg";
+import InImg from "../../../assets/ventures.jpg";
+import SpendImage from "../../../assets/most.jpg";
 
 const InvestorsCard = () => {
   return (
@@ -37,11 +37,12 @@ const InvestorsCard = () => {
                 style={{ width: "100px", height: "100px" }}
                 alt=""
               />
-              <h3 className="text-xl mt-3">Spendonate</h3>
+              <h3 className="text-xl mt-3">MOST Ventures</h3>
               <p>
-                Lorem ipsum dolor sit amet consect delectus provident, earum
-                quaerat. Earum placeat quaerat dolorum vitae ipsum obcaecati
-                velit harum?
+                We are a private venture fund in Central Asia. For more than 10
+                years, we have been providing financial and non-financial
+                support to technology entrepreneurs, as well as conducting
+                incubation and acceleration prog ...
               </p>
             </div>
             <p className="text-blue-900">#Hosting</p>
@@ -64,11 +65,12 @@ const InvestorsCard = () => {
                 style={{ width: "100px", height: "100px" }}
                 alt=""
               />
-              <h3 className="text-xl mt-2">IN-VR Ltd.</h3>
+              <h3 className="text-xl mt-2">Spotlight Ventures</h3>
               <p>
-                The haptic feedback system provides users with realistic
-                sensations and touch in virtual and augmented reality through
-                electrical muscle stimulatio ...
+                Spotlight! Ventures is an investment platform for technology and
+                digital companies. We invest in courageous founders and teams
+                with passion, ambition, willingness to take risks, determination
+                and innovative ideas. ...
               </p>
             </div>
             <p className="text-blue-900">#Travel</p>
@@ -91,10 +93,9 @@ const InvestorsCard = () => {
                 style={{ width: "100px", height: "100px" }}
                 alt=""
               />
-              <h3 className="text-xl mt-2">Demaloo</h3>
+              <h3 className="text-xl mt-2">TUZ Ventures</h3>
               <p>
-                It help people to find and book all the tours and activities in
-                an easy and convenient way.
+              TUZ Ventures is an early-stage tech VC fund focused on Central Asia and Caucasus. TUZ is founded by Silicon Valley entrepreneurs with a track record of successfully penetrating untapped frontier markets deemed ris ...
               </p>
             </div>
             <p className="text-blue-900">#Travel</p>
