@@ -50,7 +50,7 @@ const EventsCard = () => {
           >
             <img
               style={{ width: "100%", borderRadius: "15px" , height: "100%" }}
-              src={MeetupImg}
+              src={CosmosImg}
               alt=""
             />
           </div>
@@ -79,7 +79,7 @@ const EventsCard = () => {
           >
             <img
               style={{ width: "100%", height: "100%", borderRadius: "15px" }}
-              src={CosmosImg}
+              src={MonthlyImg}
               alt=""
             />
           </div>
@@ -109,14 +109,14 @@ const EventsCard = () => {
           >
             <img
               style={{ width: "100%", borderRadius: "15px" , height: "100%" }}
-              src={MonthlyImg}
+              src={MeetupImg}
               alt=""
             />
           </div>
         </div>
         <div className="text-white event-two items-start flex flex-col justify-between py-7">
           <div>
-            <p className="xl:text-xl sm:text-sm md:text-xl lg:text-xl">18-19-12-2023</p>
+            <p className="xl:text-xl sm:text-sm md:text-xl lg:text-xl">2023-12-05</p>
             <h3 style={{ width: "95%" }} className="xl:text-xl sm:text-sm md:text-xl lg:text-xl">
             Business Angel Investors School by MOST Hub Tashkent в C-Space Yunusabad
             </h3>
