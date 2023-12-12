@@ -59,7 +59,7 @@ const EventsCard = () => {
           <div>
             <p className="xl:text-xl sm:text-sm md:text-xl lg:text-xl">14-12-2023</p>
             <h3 style={{ width: "95%" }} className="xl:text-xl sm:text-sm md:text-xl lg:text-xl">
-            Demo Day акселерационной программы U-Start в UEnte
+            Demo Day for a U-START accelerator program at U-ENTER
             </h3>
           </div>
           <button>Learn More</button>
