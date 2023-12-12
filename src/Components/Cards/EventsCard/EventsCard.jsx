@@ -1,8 +1,8 @@
 import React from "react";
-import DodoImg from "";
-import CosmosImg from "../../../assets/photo1.jpg"
-import MeetupImg from "../../../assets/photo2.jpg"
-import MonthlyImg from "../../../assets/photo3.png"
+import DodoImg from "../../../assets/photo1.jpg";
+import CosmosImg from "../../../assets/photo2.jpg"
+import MeetupImg from "../../../assets/photo3.jpg"
+import MonthlyImg from "../../../assets/photo4.jpg"
 const EventsCard = () => {
   return (
     <div style={{gap: "5rem"}} className="py-7 flex justify-center items-center flex-wrap">
