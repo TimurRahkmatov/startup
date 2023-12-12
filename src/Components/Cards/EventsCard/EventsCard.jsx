@@ -20,7 +20,7 @@ const EventsCard = () => {
             }}
           >
             <img
-              style={{ width: "100%", borderRadius: "15px" }}
+              style={{ width: "100%", borderRadius: "15px" ,height: "100%" }}
               src={DodoImg}
               alt=""
             />
