@@ -46,7 +46,7 @@ const Footer = () => {
         </div>
         <div className="mt-4 flex gap-12">
           <div className="">
-            <p className="text-sm">@Startup Central Eurasia is active in: Uzbekistan , Russian , Azarbaydjan </p>
+            <p className="text-sm">@SteppeUp is active in: Uzbekistan, Kazakhstan, Kyrgyzystan, Turkemenistan and Tadjikistan </p>
           </div>
           <div className="flex gap-4">
               <p className="text-sm">PRIVACY POLICY</p>
