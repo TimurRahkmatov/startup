@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import logo from '../../assets/logo.jpg';
 
 const Header = () => {
 	return (
@@ -7,7 +8,15 @@ const Header = () => {
 			<nav className='container px-12 py-6 m-auto text-white  flex justify-between items-center'>
 				<div className='flex gap-12 items-center'>
 					<Link to='/'>
-						<h2>Logo</h2>
+						<img
+							src={logo}
+							style={{
+								width: '55px',
+								height: '55px',
+								borderRadius: '50%',
+							}}
+							alt=''
+						/>
 					</Link>
 
 					<ul className='flex hammasi items-center gap-3 ml-12'>
@@ -21,7 +30,7 @@ const Header = () => {
 						<li>/</li>
 
 						<li className='links'>
-							<Link>About Us</Link>
+							<Link to={'/'}>About Us</Link>
 						</li>
 					</ul>
 				</div>
