@@ -1,5 +1,6 @@
 import React from 'react';
 import CompotuerImage from '../../assets/platform.png';
+import back from '../../assets/back2.webp';
 import Typewriter from 'typewriter-effect';
 import { Link } from 'react-router-dom';
 
@@ -9,8 +10,14 @@ const Main = () => {
 			<div className='container m-auto px-11 main_flex'>
 				<div style={{ width: '75%' }}>
 					<img
+						style={{
+							width: '350px',
+							height: '350px',
+							borderRadius: '50%',
+							marginLeft: '150px',
+						}}
 						className='main__platform-block-image'
-						src={CompotuerImage}
+						src={back}
 					/>
 				</div>
 				<div style={{ width: '60%' }} className='texts'>
